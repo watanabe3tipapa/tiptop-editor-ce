@@ -1,0 +1,28 @@
+{
+  "name": "dad-tiptap-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tiptap/extension-image": "^2.x.x",
+    "@tiptap/react": "^2.x.x",
+    "@tiptap/starter-kit": "^2.x.x",
+    "markdown-it": "^13.0.2",
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^13.x.x",
+    "@types/react": "^18.x.x",
+    "@types/react-dom": "^18.x.x",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.x.x",
+    "vite": "^6.0.2"
+  }
+}

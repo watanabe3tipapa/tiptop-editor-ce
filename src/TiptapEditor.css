@@ -1,0 +1,67 @@
+.editor-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f0f8ff;
+  background-image: 
+    linear-gradient(to right, rgba(173, 216, 230, 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(173, 216, 230, 0.3) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.editor-main {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.editor-source {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.editor-source pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.editor-source code {
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.button-container {
+  grid-column: 1 / -1;
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+.reset-button {
+  background-color: #dc3545;
+  margin-left: auto;  /* 右端に配置 */
+}
+
+.reset-button:hover {
+  background-color: #c82333;
+}
