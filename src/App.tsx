@@ -5,6 +5,7 @@ const App = () => {
     <div>
       <h1>dad-tiptap-editor</h1>
       <TiptapEditor />
+      <img src="/IMGSS_dte.jpg" alt="IMGSS_dte" />
     </div>
   );
 };
